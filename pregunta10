@@ -1,0 +1,11 @@
+Defina indice en base de datos : 
+Un indice es una estructura para las tablas, es de mucha ayuda para acelerar los procesos de busqueda y evitar los full table scan.
+
+Como hacer un flujo de respaldo : 
+Para realizar backups en base de datos se debe configurar la tarea automatica(crontab) en una hora en la que no exista mucho trafico en nuestra base de datos.
+Por lo general el DBA evalua la situacion de la BD y recomienda la hora y cada cuanto tiempo se debe realizar el backup.
+
+Como operar con NULL : 
+Podemos trabajar con NULL en base de datos para identificar campos vacios (que no contengan informacion) por lo general 
+va incluido en una de las condiciones ejm:
+SELECT * FROM USUARI where EMAIL is NULL; 

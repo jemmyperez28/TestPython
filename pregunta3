@@ -1,0 +1,12 @@
+Que es INDEX (indice) en base de datos, indicar beneficios y desventajas.
+-> Es una estructura  de datos , que permite realizar una busqueda mas rapida de la información. Se podria  representar al libro como los datos y a un indice que permita 
+buscar la informacion en cierto bloque de datos , de esta manera ya no tendriamos que buscar hoja por hoja hasta llegar a la pagina que queremos. 
+Ventajas : 
+- Busqueda mas rapida de la informacion .
+- se evita los escaneos totales de la tabla. 
+- se recomienda crear indices en campos unicos. 
+Desventajas : 
+- Ocupa espacio en la BD.
+- No se recomienda usarlo en tablas pequeñas.
+- No se recomienda usarlo en tablas que constantemente realiza operaciones.
+
